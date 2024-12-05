@@ -14,7 +14,7 @@ st.set_page_config(
 st.title("Bike Sharing Dashboard 🚴")
 
 
-df = pd.read_csv('dashboard\main_data.csv')
+df = pd.read_csv(r'dashboard\main_data.csv')
 
 # Konversi suhu ke Celsius
 df['temp_celsius_day'] = df['temp'] * 41
