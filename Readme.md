@@ -5,15 +5,13 @@ Dashboard ini dirancang untuk menganalisis data penggunaan sepeda secara interak
 ---
 
 ## Setup Environment - Anaconda
-
-1. Buat environment baru:
    ```bash
    conda create --name bike_analysis python=3.9
    conda activate bike_analysis
    pip install -r requirements.txt
 
-## Setup Environment - Shell/terminal
-    ```bash
+## Setup Environment - Shell/terminal:
+
     mkdir bike_sharing_analysis
     cd bike_sharing_analysis
     pipenv install
@@ -21,6 +19,5 @@ Dashboard ini dirancang untuk menganalisis data penggunaan sepeda secara interak
     pip install -r requirements.txt
 
 ## Run steamlit app
-    ```bash
     streamlit run dashboard.py
 
